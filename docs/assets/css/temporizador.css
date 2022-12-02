@@ -1,0 +1,198 @@
+/* ___________ */
+/* Global Vars */
+/* ___________ */
+
+:root{
+    --main-text-color: rgb(220, 220, 220);
+    --principal-background-color: rgb(68, 166, 196);
+    --secondary-background-color: rgb(45, 108, 128);
+    --footer-background-color: rgb(45, 89, 128);
+}
+
+/* ____________ */
+/* Global Style */
+/* ____________ */
+
+body{
+    background-color: var(--principal-background-color);
+    font-family: 'Nerko One';
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    background-color: var(--footer-background-color);
+}
+
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
+
+.selected-lang{
+    border-radius: 50%!important;
+    border: outset!important;
+    border-width: 1px!important;
+    border-color: black!important;
+}
+
+/* ______________________ */
+/* Language Setting Style */
+/* ______________________ */
+
+.cambiar-idioma{
+    text-align: right;
+    padding-right: 5%;
+    color: var(--main-text-color);
+    font-size: 1.5em;
+}
+
+.cambiar-idioma p{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.cambiar-idioma button:hover{
+    cursor: pointer;
+}
+
+#idioma_es{
+    background-image: url('../imgs/es-flag.png');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    margin-right: 1%;
+}
+
+#idioma_en{
+    background-image: url('../imgs/en-flag.png');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+}
+
+/* ___________ */
+/* Timer Style */
+/* ___________ */
+
+.counter-container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 65vh;
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.count-container{
+    background-color: var(--secondary-background-color);
+    color: var(--main-text-color);
+    flex-wrap: wrap;
+    font-size: 3rem;
+    margin: 1%;
+    padding: 2% 6%;
+    border-radius: 80px;
+}
+
+.expire-date{
+    color: var(--main-text-color);
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+}
+
+/* ____________________ */
+/* Footer Content Style */
+/* ____________________ */
+
+.footer-info{
+    color: var(--main-text-color);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+}
+
+.web-develop-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+}
+
+.web-develop-content p{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.social-media-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: .5%;
+    width: 100%;
+}
+
+.social-media-info .social-media-container{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.social-media-container:hover{
+    cursor: pointer;
+}
+
+.social-media-container img{
+    height: 21px;
+    margin-top: 1.95px!important;
+    margin: 0;
+    padding: 0;
+    width: 21px;
+    display: none;
+}
+
+.social-media-container a{
+    color: var(--main-text-color)!important;
+}
+
+.social-media-info .social-media-container:first-child:hover a{
+    color: rgb(1, 119, 180)!important
+}
+.social-media-info .social-media-container:nth-child(2):hover a{
+    color: rgb(23, 20, 20)!important
+}
+.social-media-info .social-media-container:nth-child(3):hover a{
+    color: rgb(24, 118, 243)!important
+}
+.social-media-info .social-media-container:last-child:hover i{
+    display: none;
+}
+.social-media-info .social-media-container:last-child:hover img{
+    display: block;
+}
+
+.timer-done{
+    align-self: center;
+    background-color: var(--secondary-background-color);
+    border-radius: 115px;
+    color: var(--main-text-color);
+    font-size: 5rem;
+    padding: 5%;
+}
