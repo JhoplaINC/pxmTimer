@@ -1,5 +1,5 @@
 // Fecha en la que terminará el temporizador
-var countDownDate = new Date("Feb 22, 2023 23:59:59").getTime();
+var countDownDate = new Date("Feb 21, 2023 23:59:59").getTime();
 
 // Cada 1 segundo, se actualiza el tiempo
 var x = setInterval(function() {
@@ -14,7 +14,7 @@ var x = setInterval(function() {
 
     // Calculador de tiempo para: días, horas, minutos y segundos
     var months = Math.floor(distance / (1000*60*60*24*30.5));
-    var month_days = Math.floor(months / (1000 * 60 * 60 * 24));
+    var month_days = Math.floor(distance % (1000*60*60*24*30.5));
     var days = Math.floor(month_days / (1000*60*60*24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
