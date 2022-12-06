@@ -1,7 +1,7 @@
 const frases = {
     "en": {
         "Temporizador PokeXMortal": "PokeXMortal Timer",
-        "23 Febrero 2023<br />Apertura PokeXMortal": "February 23 2023<br />PokeXMortal Opening",
+        "20 Enero 2023<br />Apertura PokeXMortal": "January 20 2023<br />PokeXMortal Opening",
         "Desarrollado Por: JhoplaINC": "Developed By: JhoplaINC",
         "Español": "Spanish",
         "Inglés": "English",
