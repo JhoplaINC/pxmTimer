@@ -115,6 +115,11 @@ footer{
     width: 100%;
 }
 
+.expire-date p:last-child {
+    margin: 0;
+    padding: 0;
+}
+
 /* ____________________ */
 /* Footer Content Style */
 /* ____________________ */

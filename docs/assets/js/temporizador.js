@@ -1,5 +1,5 @@
 // Fecha en la que terminará el temporizador
-var countDownDate = new Date("Jan 19, 2023 23:59:59").getTime();
+var countDownDate = new Date("Jan 20, 2023 23:59:59").getTime();
 
 // Cada 1 segundo, se actualiza el tiempo
 var x = setInterval(function() {
